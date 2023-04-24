@@ -15,6 +15,12 @@ print(len("Waste a Moment, Staying\' Alive"))
 print(len('Waste a Moment,'))
 print(my_favorite_songs[:14],my_favorite_songs[63:],my_favorite_songs[15:30],my_favorite_songs[50:62])
 
+# Данную задачу можно решить попроще
+# Решение с помощью метода split() и индексации списков
+songs = my_favorite_songs.split(', ')
+
+print(songs[0], songs[-1], songs[1], songs[-2])
+
 #Задача 1.2.
 
 # Пункт A. 
@@ -72,4 +78,4 @@ print("Три песни звучат", total_duration, "минут")
 # Пункт D.
 # Переведите минуты и секунды в формат времени. Используйте модуль datetime
 
-
+# Отлично!
